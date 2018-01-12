@@ -1,0 +1,443 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://bittrex.com/api/v1.1/market/buylimit?apikey=default_api_key&market=BTC-NLG&nonce=1515650512&quantity=2100&rate=2.3e-05
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin17.3.0 x86_64) ruby/2.4.3p205
+      Apisign:
+      - 753bc3880f4ecfe183d70760a107b8b1704c7d106be690183de30ae9c8f05608b0174aa6b897f8b3e048fc324b728cabcc4811e987933d3d1b55f833e25b3f09
+      Host:
+      - bittrex.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 11 Jan 2018 06:01:53 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '97'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=dfffc73c6ba7efaaeb091e289ba58a6b31515650512; expires=Fri, 11-Jan-19
+        06:01:52 GMT; path=/; domain=.bittrex.com; HttpOnly
+      Cache-Control:
+      - private
+      Content-Encoding:
+      - gzip
+      Strict-Transport-Security:
+      - max-age=15768000
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3db5a9f87dbb4fd5-DEN
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAA3IOw6AIBAFwLu8GhJ/LMhtgF2MiTbgVsa7SzeZF11Lkd4Rn6ZicA+nQxABgyZdrwfxherJ48rkmeoy2+SW1W65kg0cnA3ZF+ZEOwnh+371SQ0qVgAAAA==
+    http_version:
+  recorded_at: Thu, 11 Jan 2018 06:01:53 GMT
+- request:
+    method: get
+    uri: https://bittrex.com/api/v1.1/market/buylimit?apikey=756b29049459444dbc1d1eb41747bbcf&market=BTC-NLG&nonce=1515650592&quantity=4500&rate=2.26e-05
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin17.3.0 x86_64) ruby/2.4.3p205
+      Apisign:
+      - 907447ecc20aef9e2d2d7b0a2afc39631cd59c092d144287f22fe887a0b822100d18bf050616878bd1798f8f3cd68555b539ce4b2d63807c3aded4dfbabe1ffb
+      Host:
+      - bittrex.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 11 Jan 2018 06:03:12 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '80'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d1dcab365b8955aad692c6cc3e8e1706a1515650592; expires=Fri, 11-Jan-19
+        06:03:12 GMT; path=/; domain=.bittrex.com; HttpOnly
+      Cache-Control:
+      - private
+      Content-Encoding:
+      - gzip
+      Strict-Transport-Security:
+      - max-age=15768000
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3db5abebdee84fd5-DEN
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAKtWKi5NTk4tLlaySkvMKU7VUcoFchLTU5WslDz9gkPd3DydPV39QuLdQv1cgpV0lIpSi0tzSpSs8kpzcmoByISweD4AAAA=
+    http_version:
+  recorded_at: Thu, 11 Jan 2018 06:03:12 GMT
+- request:
+    method: get
+    uri: https://bittrex.com/api/v1.1/market/buylimit?apikey=756b29049459444dbc1d1eb41747bbcf&market=BTC-NLG&nonce=1515650608&quantity=4500&rate=2.26e-05
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin17.3.0 x86_64) ruby/2.4.3p205
+      Apisign:
+      - 271eb977cf1026ff786ad2416064ec8ac72d400d1bc372d42ba53cba217b00a1286dbf3880d6bbd0698edaf397d9544609d43b577420df986840990c851fbc2f
+      Host:
+      - bittrex.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 11 Jan 2018 06:03:29 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '80'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d772d9417557d5755a90c05dc094c345e1515650609; expires=Fri, 11-Jan-19
+        06:03:29 GMT; path=/; domain=.bittrex.com; HttpOnly
+      Cache-Control:
+      - private
+      Content-Encoding:
+      - gzip
+      Strict-Transport-Security:
+      - max-age=15768000
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3db5ac52983b4fff-DEN
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAKtWKi5NTk4tLlaySkvMKU7VUcoFchLTU5WslDz9gkPd3DydPV39QuLdQv1cgpV0lIpSi0tzSpSs8kpzcmoByISweD4AAAA=
+    http_version:
+  recorded_at: Thu, 11 Jan 2018 06:03:29 GMT
+- request:
+    method: get
+    uri: https://bittrex.com/api/v1.1/market/buylimit?apikey=default_api_key&market=BTC-NLG&nonce=1515651177&quantity=4500&rate=2.26e-05
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin17.3.0 x86_64) ruby/2.4.3p205
+      Apisign:
+      - 40718b9e003fecc4c1c7ce17b304ce0b6385d591254d8135d8459ce930b313f662c7ef5522412b952e4df14ad613f20c1a0b011d68566c2b7df48aea0cdc2b5d
+      Host:
+      - bittrex.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 11 Jan 2018 06:12:57 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '76'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d52ae530b8bd683cd8821236e4b57dac31515651177; expires=Fri, 11-Jan-19
+        06:12:57 GMT; path=/; domain=.bittrex.com; HttpOnly
+      Cache-Control:
+      - private
+      Content-Encoding:
+      - gzip
+      Strict-Transport-Security:
+      - max-age=15768000
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3db5ba31fbc0501d-DEN
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAKtWKi5NTk4tLlaySkvMKU7VUcoFchLTU5WslBwDPL1dI+M9/cIcfTxdlHSUilKLS3NKlKzySnNyagHMH+izOgAAAA==
+    http_version:
+  recorded_at: Thu, 11 Jan 2018 06:12:57 GMT
+- request:
+    method: get
+    uri: https://bittrex.com/api/v1.1/market/buylimit?apikey=default_api_key&market=BTC-NLG&nonce=1515651211&quantity=4500&rate=2.26e-05
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin17.3.0 x86_64) ruby/2.4.3p205
+      Apisign:
+      - a5fe411b5166fc626d39314a292b473277651e2535134bc747c94cea95b47e9ab8c34517f5868ff354d32c13104bbffd531adfb70ef879e0fcc84ddb969e1673
+      Host:
+      - bittrex.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 11 Jan 2018 06:13:31 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '76'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d1fddaf0eba31e83bd1f71033690c14071515651211; expires=Fri, 11-Jan-19
+        06:13:31 GMT; path=/; domain=.bittrex.com; HttpOnly
+      Cache-Control:
+      - private
+      Content-Encoding:
+      - gzip
+      Strict-Transport-Security:
+      - max-age=15768000
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3db5bb0889e84ff3-DEN
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAKtWKi5NTk4tLlaySkvMKU7VUcoFchLTU5WslBwDPL1dI+M9/cIcfTxdlHSUilKLS3NKlKzySnNyagHMH+izOgAAAA==
+    http_version:
+  recorded_at: Thu, 11 Jan 2018 06:13:31 GMT
+- request:
+    method: get
+    uri: https://bittrex.com/api/v1.1/market/buylimit?apikey=default_api_key&market=BTC-NLG&nonce=1515651274&quantity=4500&rate=2.26e-05
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin17.3.0 x86_64) ruby/2.4.3p205
+      Apisign:
+      - 8dabb65bf0c8e4155e2fba58776bf1f5ff9979a28142c1d6b08273b044d6bfaef6635d0adc352b49f8243adbcd415298abae8934c2982d37d113730d91c1e019
+      Host:
+      - bittrex.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 11 Jan 2018 06:14:34 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '76'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d9d0d4d5aa4e13c6c7a532322383e13d31515651274; expires=Fri, 11-Jan-19
+        06:14:34 GMT; path=/; domain=.bittrex.com; HttpOnly
+      Cache-Control:
+      - private
+      Content-Encoding:
+      - gzip
+      Strict-Transport-Security:
+      - max-age=15768000
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3db5bc93f88c4fe1-DEN
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAKtWKi5NTk4tLlaySkvMKU7VUcoFchLTU5WslBwDPL1dI+M9/cIcfTxdlHSUilKLS3NKlKzySnNyagHMH+izOgAAAA==
+    http_version:
+  recorded_at: Thu, 11 Jan 2018 06:14:34 GMT
+- request:
+    method: get
+    uri: https://bittrex.com/api/v1.1/market/buylimit?apikey=default_api_key&market=BTC-NLG&nonce=1515651516&quantity=2100&rate=2.3e-05
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin17.3.0 x86_64) ruby/2.4.3p205
+      Apisign:
+      - c01b0333bcc2d2e4ecff62ad8bf501e08b973658aacc6c913fe77bc8c2f98a8c2e52eb5d903060ab6397f3302b5e911a9536aea5c2486deb3cf27587353f9137
+      Host:
+      - bittrex.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 11 Jan 2018 06:18:36 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '76'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d29bf9e822a9ac9c42e868b2de86fdf831515651516; expires=Fri, 11-Jan-19
+        06:18:36 GMT; path=/; domain=.bittrex.com; HttpOnly
+      Cache-Control:
+      - private
+      Content-Encoding:
+      - gzip
+      Strict-Transport-Security:
+      - max-age=15768000
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3db5c27b08724fdb-DEN
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAKtWKi5NTk4tLlaySkvMKU7VUcoFchLTU5WslBwDPL1dI+M9/cIcfTxdlHSUilKLS3NKlKzySnNyagHMH+izOgAAAA==
+    http_version:
+  recorded_at: Thu, 11 Jan 2018 06:18:36 GMT
+- request:
+    method: get
+    uri: https://bittrex.com/api/v1.1/market/buylimit?apikey=756b29049459444dbc1d1eb41747bbcf&market=BTC-NLG&nonce=1515651540&quantity=2100&rate=2.3e-05
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin17.3.0 x86_64) ruby/2.4.3p205
+      Apisign:
+      - d0c108768f14bfd4e1ea064e6cb3c7636dcd9accdd19cd307b2c82648fedc99c8821e7595dd50e756efb3ce2c0a50fc01d6fd6b78b10c25a005e28210ce613da
+      Host:
+      - bittrex.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 11 Jan 2018 06:19:01 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '97'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d21027aa0fb2550f71ba1a1478e9127431515651541; expires=Fri, 11-Jan-19
+        06:19:01 GMT; path=/; domain=.bittrex.com; HttpOnly
+      Cache-Control:
+      - private
+      Content-Encoding:
+      - gzip
+      Strict-Transport-Security:
+      - max-age=15768000
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3db5c3139d285017-DEN
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAA3IMQ6AIBAEwL9sDYnogcBvFA5jog1wFfHv0k1moElK3Bpir8IK7/RxMSKgULnJ0xEHRO48z6+G7J5JG7ZOU0hF+805zYWKPWkxjgO+7wfQ51sQVgAAAA==
+    http_version:
+  recorded_at: Thu, 11 Jan 2018 06:19:01 GMT
+recorded_with: VCR 4.0.0

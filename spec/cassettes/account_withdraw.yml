@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://bittrex.com/api/v1.1/account/withdraw?address=15sDGa3Tt8yhVPTNTY4Ae2mzwAwVdN9KgF&apikey=default_api_key&currency=BTC&nonce=1515731012&quantity=0.01
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin17.3.0 x86_64) ruby/2.4.3p205
+      Apisign:
+      - 83d1465918986a2fa509adad4019834bcb195197b16f14dd756ca55bd3078979fccfc38558e241a5e2afb7df14c2cfaf22e003e4173ff575e4c3ab1199aa62d4
+      Host:
+      - bittrex.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 12 Jan 2018 04:23:32 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '96'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=dd9c1e56158675ec8f1aa52944747fb5d1515731012; expires=Sat, 12-Jan-19
+        04:23:32 GMT; path=/; domain=.bittrex.com; HttpOnly
+      Cache-Control:
+      - private
+      Content-Encoding:
+      - gzip
+      Strict-Transport-Security:
+      - max-age=15768000
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3dbd574dacc64fcf-DEN
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAA3IOwrAIBAFwLu8WkH8x9uIriGQNOpW4t1jN8zC4FJoDKTZmQS+43wTEiDQafA7kRaYn3rOax9Du5TUgZy0LhcZvTGytUC1RGVdbNj7B7Bf8UpWAAAA
+    http_version:
+  recorded_at: Fri, 12 Jan 2018 04:23:32 GMT
+recorded_with: VCR 4.0.0

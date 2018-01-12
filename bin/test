@@ -1,0 +1,26 @@
+#!/usr/bin/env ruby
+
+lib = File.expand_path("../../lib", __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+
+require 'bundler/setup'
+require 'bittrex_rb'
+load(::BittrexRb.root+"/config.rb")
+
+c = ::BittrexRb::Client.new
+
+# Test Orderbook
+# x = c.public.order_book("BTC-LTC")
+# o = x.bids.first
+# p o
+
+# Test setting a limit order
+# y = c.market.buylimit("BTC-LTC", "10", 0.001)
+# y = c.market.buylimit("BTC-LTC", "0.00000001", 0.00001)
+
+# Test checking on an order
+# uuid = "91e2277e-1a80-4ef5-bee2-21d22ba67558"
+# o = c.account.getorder(uuid)
+
+binding.pry
+

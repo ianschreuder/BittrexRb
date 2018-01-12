@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://bittrex.com/api/v1.1/public/getorderbook?market=BTC-LTC&type=both
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin17.3.0 x86_64) ruby/2.4.3p205
+      Host:
+      - bittrex.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 11 Jan 2018 04:38:23 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1825'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d35449495d92bdd33bdc5808ee289bff61515645502; expires=Fri, 11-Jan-19
+        04:38:22 GMT; path=/; domain=.bittrex.com; HttpOnly
+      Cache-Control:
+      - public, max-age=0
+      Content-Encoding:
+      - gzip
+      Expires:
+      - Thu, 11 Jan 2018 04:38:24 GMT
+      Last-Modified:
+      - Thu, 11 Jan 2018 04:38:23 GMT
+      Vary:
+      - "*, Accept-Encoding"
+      Strict-Transport-Security:
+      - max-age=15768000
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      Cf-Cache-Status:
+      - MISS
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3db52fa64c94500b-DEN
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+    http_version: 
+  recorded_at: Thu, 11 Jan 2018 04:38:23 GMT
+recorded_with: VCR 4.0.0

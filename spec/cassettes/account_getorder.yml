@@ -1,0 +1,168 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://bittrex.com/api/v1.1/account/getorder?apikey=default_api_key&nonce=1515733440&uuid=91e2277e-1a80-4ef5-bee2-21d22ba67558
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin17.3.0 x86_64) ruby/2.4.3p205
+      Apisign:
+      - ab8150536ca8966f0ed41524231aeddc2a0b7d36c3eb25a7e9a203ff4b57e13a79ca3b86d9f6dcbfd607a363fdd253ffab6b813fb272420adf5b39854b99f4f5
+      Host:
+      - bittrex.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 12 Jan 2018 05:01:45 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '76'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=dbcb0b5c2a233fd195e6f5f379b49f1c91515733305; expires=Sat, 12-Jan-19
+        05:01:45 GMT; path=/; domain=.bittrex.com; HttpOnly
+      Cache-Control:
+      - private
+      Content-Encoding:
+      - gzip
+      Strict-Transport-Security:
+      - max-age=15768000
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3dbd8f45fae74fe7-DEN
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAKtWKi5NTk4tLlaySkvMKU7VUcoFchLTU5WslBwDPL1dI+M9/cIcfTxdlHSUilKLS3NKlKzySnNyagHMH+izOgAAAA==
+    http_version:
+  recorded_at: Fri, 12 Jan 2018 05:01:45 GMT
+- request:
+    method: get
+    uri: https://bittrex.com/api/v1.1/account/getorder?apikey=756b29049459444dbc1d1eb41747bbcf&nonce=1515733359&uuid=91e2277e-1a80-4ef5-bee2-21d22ba67558
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin17.3.0 x86_64) ruby/2.4.3p205
+      Apisign:
+      - aeb985a8540c5319a42987cabf63dc8dd6566cfbe24dfcad0949c026e6230f39a38b03564bfb890ebb6b951ac266bbd59b9cdaa35c4bba9233ce31b15f8fb37c
+      Host:
+      - bittrex.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 12 Jan 2018 05:02:39 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '371'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=dea0511f5656b00ce21921eb366b49f551515733359; expires=Sat, 12-Jan-19
+        05:02:39 GMT; path=/; domain=.bittrex.com; HttpOnly
+      Cache-Control:
+      - private
+      Content-Encoding:
+      - gzip
+      Strict-Transport-Security:
+      - max-age=15768000
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3dbd90973cde4fed-DEN
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAG2SX2/CIBTFvwvPYgD7l7fZ+NDEqXP1YU8LpbeOpKWmtMuM8bsPrLFzyhP53cM5lwsnZHopwRjEu7aHCartXuwBcYQmqAXTVx3iJ/QiZdPrLi0Q131VTdC6LaDd9coCFFNgLAwBUxER7EHp4xyAYUYLxnIRhL4fWbfFj/wS+uI9zxK8zBILs+PBgWX6mmaf892HRW+90J3qjoiTKSXDGukWaqG00vv78lLVqnOIEP+KtmCg/YZioAO+0TubsZo0da2MUY3+d5oQyvwn9f8+D7qNUKPHJWPTKglP0MYOVLtLXCd8AO3iESM0woRiyjLicS/m/mxKqR1UUjXmQeFzQviMTuNZaCWpcTaIl6Iy9nXfwc5QQ2XPlEBtp0GJ4wgk9lgucRx7JQ5kXkIuISgCz2UILaFKbV9KdC5s+CZpXUPhyLodFLeI1CSNLqy80WKkN2aTV+vVAv1BmWj3cL32+fwLSU6jyJICAAA=
+    http_version:
+  recorded_at: Fri, 12 Jan 2018 05:02:39 GMT
+- request:
+    method: get
+    uri: https://bittrex.com/api/v1.1/account/getorder?apikey=756b29049459444dbc1d1eb41747bbcf&nonce=1515733373&uuid=91e2277e-1a80-4ef5-bee2-21d22ba67558
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin17.3.0 x86_64) ruby/2.4.3p205
+      Apisign:
+      - 975d6495f56b8f976b9d84b410e137f36c23a1cdbf637aa46c6289204a64869090300c1e84c305e056fbd2ee2c15bcb737ac1fc4f432947fb7da056b278359f8
+      Host:
+      - bittrex.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 12 Jan 2018 05:02:54 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '371'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d45806a693720793a93bc81606f6e6c711515733374; expires=Sat, 12-Jan-19
+        05:02:54 GMT; path=/; domain=.bittrex.com; HttpOnly
+      Cache-Control:
+      - private
+      Content-Encoding:
+      - gzip
+      Strict-Transport-Security:
+      - max-age=15768000
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3dbd90f38aec5011-DEN
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAG2SX2/CIBTFvwvPYgD7l7fZ+NDEqXP1YU8LpbeOpKWmtMuM8bsPrLFzyhP53cM5lwsnZHopwRjEu7aHCartXuwBcYQmqAXTVx3iJ/QiZdPrLi0Q131VTdC6LaDd9coCFFNgLAwBUxER7EHp4xyAYUYLxnIRhL4fWbfFj/wS+uI9zxK8zBILs+PBgWX6mmaf892HRW+90J3qjoiTKSXDGukWaqG00vv78lLVqnOIEP+KtmCg/YZioAO+0TubsZo0da2MUY3+d5oQyvwn9f8+D7qNUKPHJWPTKglP0MYOVLtLXCd8AO3iESM0woRiyjLicS/m/mxKqR1UUjXmQeFzQviMTuNZaCWpcTaIl6Iy9nXfwc5QQ2XPlEBtp0GJ4wgk9lgucRx7JQ5kXkIuISgCz2UILaFKbV9KdC5s+CZpXUPhyLodFLeI1CSNLqy80WKkN2aTV+vVAv1BmWj3cL32+fwLSU6jyJICAAA=
+    http_version:
+  recorded_at: Fri, 12 Jan 2018 05:02:54 GMT
+recorded_with: VCR 4.0.0
