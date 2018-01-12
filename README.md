@@ -7,7 +7,7 @@ Please open PRs or issues in order to improve the gem.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'bittrex_rb', https://github.com/ianschreuder/BittrexRb.git
+gem 'bittrex_rb', git: 'https://github.com/ianschreuder/BittrexRb'
 ```
 
 And then execute:
