@@ -3,7 +3,6 @@ require "bittrex_rb/configuration"
 require "bittrex_rb/configurable"
 require "rest-client"
 require 'json'
-require "pry"
 
 module BittrexRb
   extend BittrexRb::Configurable
