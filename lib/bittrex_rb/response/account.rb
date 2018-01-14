@@ -22,6 +22,17 @@ module BittrexRb
         ! a["IsOpen"].nil?
       end
 
+      def balances
+        body["result"]
+      end
+
+      def balance(coin)
+        b = balances.detect{|h| h["Currency"] == coin.upcase}
+        unless b.empty?
+          b["Balance"].to_f || 0.0
+        end
+      end
+
       private
 
 

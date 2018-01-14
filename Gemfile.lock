@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    bittrex_rb (0.1.0)
+    bittrex_rb (0.1.2)
 
 GEM
   remote: https://rubygems.org/

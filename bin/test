@@ -7,6 +7,13 @@ require 'bundler/setup'
 require 'bittrex_rb'
 load(::BittrexRb.root+"/config.rb")
 
+BittrexRb.configure do |config|
+  config.api_key     = '7037bea803504e339ac09034f18238b5'
+  config.api_secret  = '206f8b2e052e44379af7306738f329c4'
+  config.base_uri    = 'https://bittrex.com/api/'
+end
+
+
 c = ::BittrexRb::Client.new
 
 # Test Orderbook
@@ -22,5 +29,4 @@ c = ::BittrexRb::Client.new
 # uuid = "91e2277e-1a80-4ef5-bee2-21d22ba67558"
 # o = c.account.getorder(uuid)
 
-binding.pry
-
+# p "BTC: #{c.account.balance("BTC")}"

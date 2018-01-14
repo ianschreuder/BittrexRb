@@ -19,6 +19,15 @@ module BittrexRb
         ::BittrexRb::Response::Account.new(res)
       end
 
+      # Parameters - None
+      def balance(coin)
+        res = sget("/getbalances")
+p "*****"
+p res.inspect
+        resp = ::BittrexRb::Response::Account.new(res)
+        resp.balance(coin)
+      end
+
       def uri_modifier; '/account'; end
 
     end
