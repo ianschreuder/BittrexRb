@@ -5,6 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 require 'bundler/setup'
 require 'bittrex_rb'
+require "pry"
 load(::BittrexRb.root+"/config.rb")
 
 BittrexRb.configure do |config|
@@ -30,3 +31,5 @@ c = ::BittrexRb::Client.new
 # o = c.account.getorder(uuid)
 
 # p "BTC: #{c.account.balance("BTC")}"
+
+binding.pry
