@@ -47,7 +47,7 @@ params: (currency, quantity, target_address)
 ::BittrexRb::Client.new.account.withdraw("BTC", 0.1, '<btc_addy>')
 #=> {uuid: "abc", status: "success}
 ```
-#### Withdrawal
+#### Balance
 ```
 params: (coin)
 ::BittrexRb::Client.new.account.balance(coin)
