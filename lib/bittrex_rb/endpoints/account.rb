@@ -22,8 +22,6 @@ module BittrexRb
       # Parameters - None
       def balance(coin)
         res = sget("/getbalances")
-p "*****"
-p res.inspect
         resp = ::BittrexRb::Response::Account.new(res)
         resp.balance(coin)
       end
