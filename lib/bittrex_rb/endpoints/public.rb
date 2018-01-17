@@ -7,7 +7,7 @@ module BittrexRb
       #   type: required - :buy, :sell or :both to identify the type of orderbook to return.
       def order_book(pair, type = :both)
         res = get("/getorderbook", {market: pair, type: type})
-        ::BittrexRb::Response::Public.new(res)
+        ::BittrexRb::Response::Public.new(res, type.to_sym)
       end
 
       def uri_modifier; '/public'; end

@@ -2,12 +2,17 @@ module BittrexRb
   module Response
     class Public < Base
 
+      def initialize(response, type=:both)
+        super(response)
+        @type = type
+      end
+
       def bids
         a = body["result"]
         if a.is_a?(Hash)
           to_hashes(a["buy"])
 
-        elsif a.is_a?(Array)
+        elsif a.is_a?(Array) && @type==:buy
           to_hashes(a)
 
         else
@@ -21,7 +26,7 @@ module BittrexRb
         if a.is_a?(Hash)
           to_hashes(a["sell"])
 
-        elsif a.is_a?(Array)
+        elsif a.is_a?(Array) && @type==:sell
           to_hashes(a)
 
         else
