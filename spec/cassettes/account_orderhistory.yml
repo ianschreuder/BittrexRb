@@ -1,0 +1,111 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://bittrex.com/api/v1.1/account/getorderhistory?apikey=default_api_key&nonce=1515733440
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin17.3.0 x86_64) ruby/2.4.3p205
+      Apisign:
+      - d30aa08e7a1b77badd60b16294363b96cbd745976e7055f5cf05724f016cfc7879cd8c00e218f0ec61062c15ab85f14289bc1ab3823a6b17d2b9c733cdcf4d98
+      Host:
+      - bittrex.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 28 Jan 2018 20:15:21 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '54162'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d0d4004f8608cea2487f62aa3df48a28b1517170521; expires=Mon, 28-Jan-19
+        20:15:21 GMT; path=/; domain=.bittrex.com; HttpOnly
+      Cache-Control:
+      - private
+      Strict-Transport-Security:
+      - max-age=15768000
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 3e469f8e9f1c4fff-DEN
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"message":"","result":[{"OrderUuid":"8cd1ff98-4a32-49ed-97bb-6311812b180b","Exchange":"BTC-DASH","TimeStamp":"2018-01-28T15:24:35.28","OrderType":"LIMIT_BUY","Limit":0.06759000,"Quantity":7.38744914,"QuantityRemaining":0.00000000,"Commission":0.00124827,"Price":0.49931766,"PricePerUnit":0.06758999000000000000,"IsConditional":false,"Condition":"NONE","ConditionTarget":null,"ImmediateOrCancel":false,"Closed":"2018-01-28T15:28:15.02"}]}'
+    http_version:
+  recorded_at: Sun, 28 Jan 2018 20:15:21 GMT
+- request:
+    method: get
+    uri: https://bittrex.com/api/v1.1/account/getorderhistory?apikey=default_api_key&market=BTC-DASH&nonce=1515733440
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin17.3.0 x86_64) ruby/2.4.3p205
+      Apisign:
+      - 27d4f40de2db3431a3e5c0b930b67994d6de7526b57c5a6a38372ed07b30ec1fc3627fd65d5f9ce132624cc07941318e9253902e0c29ce716f8c57b2019988b8
+      Host:
+      - bittrex.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 28 Jan 2018 20:15:21 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1281'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=dcc999e315c70319f1773c7a45e6b6aa51517170521; expires=Mon, 28-Jan-19
+        20:15:21 GMT; path=/; domain=.bittrex.com; HttpOnly
+      Cache-Control:
+      - private
+      Strict-Transport-Security:
+      - max-age=15768000
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 3e469f91ff6a4ff9-DEN
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"message":"","result":[{"OrderUuid":"8cd1ff98-4a32-49ed-97bb-6311812b180b","Exchange":"BTC-DASH","TimeStamp":"2018-01-28T15:24:35.28","OrderType":"LIMIT_BUY","Limit":0.06759000,"Quantity":7.38744914,"QuantityRemaining":0.00000000,"Commission":0.00124827,"Price":0.49931766,"PricePerUnit":0.06758999000000000000,"IsConditional":false,"Condition":"NONE","ConditionTarget":null,"ImmediateOrCancel":false,"Closed":"2018-01-28T15:28:15.02"},{"OrderUuid":"3a639448-f391-4886-905d-716bcad4077b","Exchange":"BTC-DASH","TimeStamp":"2018-01-28T08:09:57.51","OrderType":"LIMIT_SELL","Limit":0.06759501,"Quantity":7.42393365,"QuantityRemaining":0.00000000,"Commission":0.00125451,"Price":0.50182084,"PricePerUnit":0.06759500000000000000,"IsConditional":false,"Condition":"NONE","ConditionTarget":null,"ImmediateOrCancel":false,"Closed":"2018-01-28T08:31:12.68"},{"OrderUuid":"5a494a3f-a21a-4e6f-b7e7-1aaf89e8ba7b","Exchange":"BTC-DASH","TimeStamp":"2018-01-02T06:28:10.07","OrderType":"LIMIT_BUY","Limit":0.08139985,"Quantity":3.62237511,"QuantityRemaining":0.00000000,"Commission":0.00073715,"Price":0.29486046,"PricePerUnit":0.08139975000000000000,"IsConditional":false,"Condition":"NONE","ConditionTarget":null,"ImmediateOrCancel":false,"Closed":"2018-01-02T06:28:10.117"}]}'
+    http_version:
+  recorded_at: Sun, 28 Jan 2018 20:15:22 GMT
+recorded_with: VCR 4.0.0

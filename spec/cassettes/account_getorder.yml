@@ -57,7 +57,7 @@ http_interactions:
   recorded_at: Fri, 12 Jan 2018 05:01:45 GMT
 - request:
     method: get
-    uri: https://bittrex.com/api/v1.1/account/getorder?apikey=756b29049459444dbc1d1eb41747bbcf&nonce=1515733359&uuid=91e2277e-1a80-4ef5-bee2-21d22ba67558
+    uri: https://bittrex.com/api/v1.1/account/getorder?apikey=default_api_key&nonce=1515733359&uuid=91e2277e-1a80-4ef5-bee2-21d22ba67558
     body:
       encoding: US-ASCII
       string: ''
@@ -112,7 +112,7 @@ http_interactions:
   recorded_at: Fri, 12 Jan 2018 05:02:39 GMT
 - request:
     method: get
-    uri: https://bittrex.com/api/v1.1/account/getorder?apikey=756b29049459444dbc1d1eb41747bbcf&nonce=1515733373&uuid=91e2277e-1a80-4ef5-bee2-21d22ba67558
+    uri: https://bittrex.com/api/v1.1/account/getorder?apikey=default_api_key&nonce=1515733373&uuid=91e2277e-1a80-4ef5-bee2-21d22ba67558
     body:
       encoding: US-ASCII
       string: ''

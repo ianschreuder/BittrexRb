@@ -1,4 +1,5 @@
 require "spec_helper"
+require 'pry'
 
 RSpec.describe BittrexRb::Endpoints::Account do
   describe "#transfer" do
@@ -21,7 +22,7 @@ RSpec.describe BittrexRb::Endpoints::Account do
     end
   end
 
-  describe "#check existing order" do
+  describe "check existing order" do
 
     # Check on status of existing order
     # ::BittrexRb::Client.new.account.getorder('xxxx')
@@ -36,6 +37,28 @@ RSpec.describe BittrexRb::Endpoints::Account do
 
         o = c.account.getorder(uuid)
         expect(o.is_open?).to be false
+      end
+    end
+  end
+
+  describe "pull order history" do
+
+    # Check on status of existing order
+    # ::BittrexRb::Client.new.account.getorder('xxxx')
+    it "check on existing order" do
+      VCR.use_cassette("account.orderhistory", record: :none, decode_compressed_response: true) do
+
+        c = ::BittrexRb::Client.new
+
+        expect(c).to receive(:requires_api_keys).and_return true
+        allow_any_instance_of(::BittrexRb::Endpoints::Account).to receive(:calc_nonce).and_return(1515733440)
+
+        o = c.account.orderhistory
+        expect(o.orders.length).to be > 0
+
+        expect(c).to receive(:requires_api_keys).and_return true
+        o = c.account.orderhistory("BTC-DASH")
+        expect(o.orders.length).to be > 0
       end
     end
   end

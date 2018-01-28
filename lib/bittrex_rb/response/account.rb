@@ -26,6 +26,10 @@ module BittrexRb
         body["result"]
       end
 
+      def orders
+        body["result"]
+      end
+
       def balance(coin)
         b = balances.detect{|h| h["Currency"] == coin.upcase}
         unless b.empty?

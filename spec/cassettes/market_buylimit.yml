@@ -57,7 +57,7 @@ http_interactions:
   recorded_at: Thu, 11 Jan 2018 06:01:53 GMT
 - request:
     method: get
-    uri: https://bittrex.com/api/v1.1/market/buylimit?apikey=756b29049459444dbc1d1eb41747bbcf&market=BTC-NLG&nonce=1515650592&quantity=4500&rate=2.26e-05
+    uri: https://bittrex.com/api/v1.1/market/buylimit?apikey=default_api_key&market=BTC-NLG&nonce=1515650592&quantity=4500&rate=2.26e-05
     body:
       encoding: US-ASCII
       string: ''
@@ -112,7 +112,7 @@ http_interactions:
   recorded_at: Thu, 11 Jan 2018 06:03:12 GMT
 - request:
     method: get
-    uri: https://bittrex.com/api/v1.1/market/buylimit?apikey=756b29049459444dbc1d1eb41747bbcf&market=BTC-NLG&nonce=1515650608&quantity=4500&rate=2.26e-05
+    uri: https://bittrex.com/api/v1.1/market/buylimit?apikey=default_api_key&market=BTC-NLG&nonce=1515650608&quantity=4500&rate=2.26e-05
     body:
       encoding: US-ASCII
       string: ''
@@ -387,7 +387,7 @@ http_interactions:
   recorded_at: Thu, 11 Jan 2018 06:18:36 GMT
 - request:
     method: get
-    uri: https://bittrex.com/api/v1.1/market/buylimit?apikey=756b29049459444dbc1d1eb41747bbcf&market=BTC-NLG&nonce=1515651540&quantity=2100&rate=2.3e-05
+    uri: https://bittrex.com/api/v1.1/market/buylimit?apikey=default_api_key&market=BTC-NLG&nonce=1515651540&quantity=2100&rate=2.3e-05
     body:
       encoding: US-ASCII
       string: ''

@@ -26,6 +26,17 @@ module BittrexRb
         resp.balance(coin)
       end
 
+      # parameter - required -description
+      #   market- optional - a string literal for the market (ie. BTC-LTC). If ommited, will return for all markets
+      def orderhistory(market = nil)
+        if market.nil?
+          res = sget("/getorderhistory", {})
+        else
+          res = sget("/getorderhistory", {market: market})
+        end
+        resp = ::BittrexRb::Response::Account.new(res)
+      end
+
       def uri_modifier; '/account'; end
 
     end
