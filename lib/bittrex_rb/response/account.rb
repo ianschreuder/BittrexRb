@@ -32,7 +32,7 @@ module BittrexRb
 
       def balance(coin)
         b = balances.detect{|h| h["Currency"] == coin.upcase}
-        unless b.empty?
+        unless b.nil?
           b["Balance"].to_f || 0.0
         end
       end
