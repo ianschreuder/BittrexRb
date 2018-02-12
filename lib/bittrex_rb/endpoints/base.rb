@@ -32,7 +32,7 @@ module BittrexRb
       end
 
       def connection(endpoint, params)
-        RestClient::Resource.new(geturl(endpoint, params))
+        RestClient::Resource.new(geturl(endpoint, params), {timeout: 30})
       end
 
       def secure_connection(endpoint, params)
@@ -42,7 +42,7 @@ module BittrexRb
         url = geturl(endpoint, params)
         headers = {apisign: signature(url, nonce)}
 
-        RestClient::Resource.new(url, {headers: headers})
+        RestClient::Resource.new(url, {headers: headers, timeout: 30})
       end
 
       def parse_params(params)
