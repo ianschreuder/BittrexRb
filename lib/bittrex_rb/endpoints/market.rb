@@ -23,7 +23,7 @@ module BittrexRb
       # parameter - required - description
       # uuid - required - uuid of buy or sell order
       def cancelorder(uuid)
-        res = sget("/cancelorder", {uuid: uuid})
+        res = sget("/cancel", {uuid: uuid})
         ::BittrexRb::Response::Market.new(res)
       end
 
